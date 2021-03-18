@@ -1,0 +1,22 @@
+.conteine{height: 600px;}
+
+.igs{animation:  igs 3s ease-in-out infinite;
+
+font-size: 60px;
+text-align: start;
+position: absolute;}
+.igs:hover{ 
+
+    font-size: 100px;
+    text-align: start;}
+    
+@keyframes igs { 
+    0% {top:10%; left:10%; transform: none; }   
+    100% { transform: rotate(360deg) ; 
+    top: 80%;left: 80%;}
+   
+}
+.div1{font-size: 50px;display: flex;justify-content: flex-end;
+    margin-right: 70px;margin-top: 535px;
+
+}
